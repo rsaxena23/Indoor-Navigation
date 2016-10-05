@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backplain" >
+
+    <ImageView
+        android:id="@+id/ImageView09"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="-30dp"
+        android:layout_y="370dp"
+        android:onClick="base"
+        android:src="@drawable/bfloor" />
+
+    <ImageView
+        android:id="@+id/ImageView10"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="120dp"
+        android:layout_y="370dp"
+        android:onClick="lobby"
+        android:src="@drawable/lobby" />
+
+    <ImageView
+        android:id="@+id/ImageView07"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="120dp"
+        android:layout_y="280dp"
+        android:onClick="floor8"
+        android:src="@drawable/eightfloor" />
+
+    <ImageView
+        android:id="@+id/ImageView08"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="-30dp"
+        android:layout_y="280dp"
+        android:onClick="floor7"
+        android:src="@drawable/sevenfloor" />
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="120dp"
+        android:layout_y="190dp"
+        android:onClick="floor6"
+        android:src="@drawable/sixfloor" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="-30dp"
+        android:layout_y="190dp"
+        android:onClick="floor5"
+        android:src="@drawable/fivefloor" />
+
+    <ImageView
+        android:id="@+id/ImageView04"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="120dp"
+        android:layout_y="100dp"
+        android:onClick="floor4"
+        android:src="@drawable/fourfloor" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="-30dp"
+        android:layout_y="100dp"
+        android:onClick="floor3"
+        android:src="@drawable/threefloor" />
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="120dp"
+        android:layout_y="10dp"
+        android:onClick="floor2"
+        android:src="@drawable/twofloor" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_x="-30dp"
+        android:layout_y="10dp"
+        android:onClick="floor1"
+        android:src="@drawable/onefloor" />
+
+</AbsoluteLayout>
